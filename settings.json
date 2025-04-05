@@ -24,4 +24,33 @@
     "dart.debugExternalPackageLibraries": true,
     "dart.debugSdkLibraries": false,
     "java.compile.nullAnalysis.mode": "automatic"
+},
+// or
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Monokai Dimmed",
+    "explorer.confirmDelete": false,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    // Flutter & Dart specific settings
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "dart.previewFlutterUiGuides": true,
+    "dart.openDevTools": "flutter",
+    "dart.debugExternalPackageLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "[dart]": {
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.bracketPairColorization.enabled": true,
+        "editor.guides.bracketPairs": true
+    }
 }
